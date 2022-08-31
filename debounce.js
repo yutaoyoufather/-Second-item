@@ -18,6 +18,7 @@
 	    timer = setTimeout(function (){
 	      func.apply(that, args);
 	    },delay);
+      
 	}
 }
 /**
