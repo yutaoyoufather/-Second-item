@@ -18,13 +18,13 @@
 	    timer = setTimeout(function (){
 	      func.apply(that, args);
 	    },delay);
-      
 	}
 }
 /**
  * @param {Number} time 
  * @param {Function} fun 
  * @returns function();
+ * 
  */
 function throttle(time, fun) {
   var flag = 0;
